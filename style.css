@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Krona+One&family=Montserrat:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --cor1:#ffffff;
+    --cor2:#c0c0c0;
+    --cor3:#167BF7;
+    --cor4:#00030C;
+    --fonte-principal:'Inter';
+}
+body{
+    font-family:var(--fonte-principal), sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: var(--cor4);
+    color: var(--cor1);
+
+}
+.principal{
+    text-align: center;
+    align-items: center;
+    font-weight: 700;
+    background-image:url(img/background.png) ;
+    background-repeat: no-repeat;
+    
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    font-weight: 400;
+}
+.container__caixa{
+    margin:0 6em ;
+}
+.container__titulo{
+    font-size: 28px;
+    font-size: 700;
+}
+.container__imagem{
+    margin: 1em 0 2em 0;
+}
+.container__botao{
+    background-color: var(--cor3);
+    text-decoration: none;
+    color: var(--cor1);
+    border-radius: 5px;
+    padding: 1em;
+    display: block;
+    margin-bottom: 16px;
+}
+.container__botao1{
+    background-color: transparent;
+    border: 2px solid var(--cor2);
+    text-decoration: none;
+    color: var(--cor1);
+    border-radius: 5px;
+    padding: 1em;
+    display: block;
+    margin-bottom: 8px;
+}
+.container__aviso{
+    font-size: 10px;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.secundaria{
+    align-items: center;
+    margin: 0 10em;
+}
+.secundaria__imagem{
+    width: 80%;
+}
+.descricao__titulo{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--cor1);
+    margin-bottom: 0.1em;
+}
+.descricao__paragrafo{
+    
+    color: var(--cor2);
+}
+.container__botao2{
+    display: inline-block;
+    margin-top: 1em;
+}
+.container__descricao{
+    padding: 2em;
+}
+.dispositivo__titulo{
+    font-size: 48px;
+    color: var(--cor1);
+    margin-bottom: 2em;
+    text-align: center;
+}
+.dispositivo__lista{  
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+.item__lista{
+    font-size: 32px;
+    text-align: center;
+}
+.rodape {
+    text-align: center;
+    margin: 5em 3em;
+}
+.rodape__lista{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+.lista__link a{
+    text-decoration: none;
+    color: var(--cor1);
+    margin-left: 1em;
+}
+.lista__link a:hover{
+    color: var(--cor3);
+}
+.rodape__paragrafo {
+    margin: 1em 0;
+    color: var(--cor2);
+    font-size: 14px;
+}
